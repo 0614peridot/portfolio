@@ -376,6 +376,15 @@ dt {
   padding-left: 18px;
 }
 
+.case-sidebar a {
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+
+.case-sidebar a:hover {
+  color: var(--ink);
+}
+
 .case-section {
   display: grid;
   grid-template-columns: 56px minmax(0, 1fr);
