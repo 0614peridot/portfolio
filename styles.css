@@ -345,6 +345,14 @@ dt {
   padding: 54px 0 104px;
 }
 
+.quote {
+  padding: 16px 20px;
+  border-left: 3px solid var(--point);
+  color: var(--muted);
+  font-style: italic;
+  margin: 8px 0;
+}
+
 .case-sidebar {
   position: sticky;
   top: 94px;
